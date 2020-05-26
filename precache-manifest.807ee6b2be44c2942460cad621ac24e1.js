@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36f0025a80cfbb4f55c20d0b9ab6f408",
+    "revision": "4a5f580fe8ff6f15bd48e9aa0219fc23",
     "url": "https://kelleyliu.github.io/website/index.html"
   },
   {
-    "revision": "f1e110104dc26167eef3",
+    "revision": "1aca9c7dd444050a0712",
     "url": "https://kelleyliu.github.io/website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "64a7e38ded28ec9f2494",
+    "revision": "f801e017ca7dfb17aff7",
     "url": "https://kelleyliu.github.io/website/static/css/main.75438042.chunk.css"
   },
   {
-    "revision": "f1e110104dc26167eef3",
-    "url": "https://kelleyliu.github.io/website/static/js/2.ab1a553f.chunk.js"
+    "revision": "1aca9c7dd444050a0712",
+    "url": "https://kelleyliu.github.io/website/static/js/2.e0673b44.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "https://kelleyliu.github.io/website/static/js/2.ab1a553f.chunk.js.LICENSE.txt"
+    "url": "https://kelleyliu.github.io/website/static/js/2.e0673b44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64a7e38ded28ec9f2494",
-    "url": "https://kelleyliu.github.io/website/static/js/main.fb6a9cd1.chunk.js"
+    "revision": "f801e017ca7dfb17aff7",
+    "url": "https://kelleyliu.github.io/website/static/js/main.d37be4d9.chunk.js"
   },
   {
     "revision": "6105f64d55409c876308",

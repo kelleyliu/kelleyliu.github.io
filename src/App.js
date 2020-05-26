@@ -40,7 +40,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <NavBar />  
           
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} 
+          <Route path="/website" exact render={() => <HomePage title={this.state.home.title} 
                                                         subTitle={this.state.home.subTitle} 
                                                         text={this.state.home.text}
                                                         about={this.state.home.about}

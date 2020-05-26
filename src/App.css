@@ -17,6 +17,12 @@
   margin-top: 10px;
 }
 
+.about-text-margin {
+  width: 75% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-margin {
   margin-left: 68px;
 }
@@ -43,9 +49,6 @@
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  /* align-items: center; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .connect {

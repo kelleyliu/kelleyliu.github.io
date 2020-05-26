@@ -40,7 +40,7 @@ function HomePage(props) {
                     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
                         <Container fluid={false}>
                             <Row className="text-left">
-                                <Col>
+                                <Col sm={12}>
                                     {<h3 className="home-blue font-weight-bolder"> {props.about} </h3>}
                                 </Col>
                                 <Col className='see-more'>
@@ -49,15 +49,12 @@ function HomePage(props) {
                             </Row>
                             <div className='img-margin'>
                                 <Row className='img-align' >
-                                    <Col className='img-wrap pad' sm={6} md={6}>
-                                        <p>
-                                           I'm a Berkeley alum based in Bay Area. 
-                                        </p>
-                                        <p>
-                                            Thanks for visiting!
+                                    <Col className='img-wrap pad' xs={6} sm={6} md={8}>
+                                        <p className='font-weight-lighter home-blue'>
+                                           Software engineer based in the Bay Area
                                         </p>
                                     </Col>
-                                    <Col className='img-wrap pad'sm={6} md={6}>
+                                    <Col className='img-wrap pad' xs={6} sm={6} md={4}>
                                         <img className='img-fluid img' src={seal}/>
                                     </Col>
                                 </Row>

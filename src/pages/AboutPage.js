@@ -22,7 +22,7 @@ function AboutPage(props) {
                             <img className='about-pic' src={Logo} alt="portrait"/>
                         </Col>
                         <Col className='about-text' sm={12} md={6}>
-                            <div className='home-blue fadeIn'>
+                            <div className='home-blue fadeIn about-text-margin'>
                                 <h5 className="lead accent-color"> 
                                     Hi, my name is Kelley Liu...
                                 </h5>

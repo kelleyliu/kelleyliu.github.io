@@ -24,7 +24,7 @@ function HomePage(props) {
                 <Jumbotron className="bg-transparent jumbotron-fluid p-0">
                     <Container fluid={false}>
                         <Row className="text-left py-5">
-                            <Col>
+                            <Col xs={12}>
                                 {<h1 className="home-blue zoom display-1 font-weight-bolder"> {props.title} </h1>}
                                 {<h2 className="home-blue display-4 font-weight-light"> {props.subTitle} </h2>}
                                 {<p className="home-blue lead font-weight-light"> {props.text} </p>}
@@ -39,7 +39,7 @@ function HomePage(props) {
                     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
                         <Container fluid={false}>
                             <Row className="text-left">
-                                <Col sm={12}>
+                                <Col xs={12} sm={12}>
                                     {<h3 className="home-blue font-weight-bolder"> {props.about} </h3>}
                                 </Col>
                                 <Col className='see-more'>
@@ -57,7 +57,7 @@ function HomePage(props) {
                                         <img className='img-fluid img' src={seal}/>
                                     </Col>
                                 </Row>
-                            </div>xw
+                            </div>
                         </Container>
                     </Jumbotron>
                 </div>
@@ -78,10 +78,10 @@ function HomePage(props) {
                             </Row>
                             <div className='img-margin'>
                                 <Row className='img-align' >
-                                    <Col className='img-wrap pad' sm={6} md={3}>
+                                    <Col className='img-wrap pad' xs={12} sm={12} md={3}>
                                         <img className='img-fluid img' src={kate2}/>
                                     </Col>
-                                    <Col className='img-wrap pad'sm={6} md={3}>
+                                    <Col className='img-wrap pad' md={3}>
                                         <img className='img-fluid img' src={kate1}/>
                                     </Col>
                                     <Col className='img-wrap pad' md={3}>
@@ -112,10 +112,10 @@ function HomePage(props) {
                             </Row>
                             <div className='img-margin'>
                                 <Row className='img-align' >
-                                    <Col className='img-wrap pad' sm={6} md={6}>
+                                    <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                                         <img className='img-fluid img' src={deer}/>
                                     </Col>
-                                    <Col className='img-wrap pad'sm={6} md={6}>
+                                    <Col className='img-wrap pad' md={6}>
                                         <img className='img-fluid img' src={elephant}/>
                                     </Col>
                                 </Row>

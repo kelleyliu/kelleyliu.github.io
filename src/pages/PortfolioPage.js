@@ -67,13 +67,13 @@ function PortfolioPage(props) {
                 </div>
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={4}>
                             <Img img={self1} caption='Mar 2020: Home'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' md={4}>
                             <Img img={self2} caption='Mar 2020: Home'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' md={4}>
                             <Img img={self3} caption='Mar 2020: Home'/>
                         </Col>
                     </Row>
@@ -81,10 +81,10 @@ function PortfolioPage(props) {
                 
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                             <Img img={muir2} caption='Mar 2020: Muir Beach'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' md={6}>
                             <Img img={muir1} caption='Mar 2020: Muir Beach'/>
                         </Col>
                         
@@ -93,16 +93,16 @@ function PortfolioPage(props) {
                 
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={3}>
                             <Img img={yose1} caption='Mar 2020: Yosemite'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={yose7} caption='Mar 2020: Yosemite'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={yose4} caption='Mar 2020: Yosemite'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={yose5} caption='Mar 2020: Yosemite'/>
                         </Col>
                     </Row>
@@ -110,10 +110,10 @@ function PortfolioPage(props) {
             
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                             <Img img={yose3} caption='Mar 2020: Yosemite'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' md={6}>
                             <Img img={yose9} caption='Mar 2020: Yosemite'/>
                         </Col>
                         
@@ -136,10 +136,10 @@ function PortfolioPage(props) {
                     
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                             <Img img={jack1} caption='Feb 2020: Grizzly Peak'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' md={6}>
                             <Img img={jack2} caption='Feb 2020: Grizzly Peak'/>
                         </Col>
                     </Row>
@@ -147,16 +147,16 @@ function PortfolioPage(props) {
 
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={3}>
                             <Img img={george1} caption='Feb 2020: SF'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={george2} caption='Feb 2020: SF'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={george3} caption='Feb 2020: SF'/>
                         </Col>
-                        <Col className='img-wrap pad ' sm={12} md={3}>
+                        <Col className='img-wrap pad ' md={3}>
                             <Img img={george4} caption='Feb 2020: SF'/>
                         </Col>
                         
@@ -165,13 +165,13 @@ function PortfolioPage(props) {
 
                 <div className='img-margin'>
                     <Row className='img-align'>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={3}>
                             <Img img={kate1} caption='Feb 2020: Oakland'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={3}>
+                        <Col className='img-wrap pad' md={3}>
                             <Img img={kate2} caption='Feb 2020: Oakland'/>
                         </Col>
-                        <Col className='img-wrap p-0' sm={12} md={6}>
+                        <Col className='img-wrap p-0' md={6}>
                             <Img img={kate4} caption='Feb 2020: Oakland'/>
                         </Col>
                     </Row>
@@ -187,10 +187,10 @@ function PortfolioPage(props) {
 
                 <div className='img-margin'>
                     <Row className='img-align img-full'>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                             <Img img={elephant} caption='Medium: Watercolor'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' md={6}>
                             <Img img={deer} caption='Medium: Watercolor, sharpie'/>
                         </Col>
                     </Row>
@@ -198,13 +198,13 @@ function PortfolioPage(props) {
 
                 <div className='img-margin'>
                     <Row className='img-align img-full'>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={4}>
                             <Img img={sketch} caption='Medium:Graphite'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' md={4}>
                             <Img img={flower} caption='Medium: Watercolor'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={4}>
+                        <Col className='img-wrap pad' md={4}>
                             <Img img={portrait} caption='Medium: Marker'/>
                         </Col>
                     </Row>
@@ -212,10 +212,10 @@ function PortfolioPage(props) {
 
                 <div className='img-margin'>
                     <Row className='img-align img-full'>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' xs={12} sm={12} md={6}>
                             <Img img={owl} caption='Medium: Watercolor'/>
                         </Col>
-                        <Col className='img-wrap pad' sm={12} md={6}>
+                        <Col className='img-wrap pad' md={6}>
                             <Img img={hands} caption='Medium: Graphite'/>
                         </Col>
                     </Row>

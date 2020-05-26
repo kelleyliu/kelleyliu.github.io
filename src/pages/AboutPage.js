@@ -18,7 +18,7 @@ function AboutPage(props) {
                         </Col>
                     </Row>
                     <Row className="py-3">
-                        <Col className='img-align fadeIn' sm={12} md={6}>
+                        <Col className='img-align fadeIn' xs={12} sm={12} md={6}>
                             <img className='about-pic' src={Logo} alt="portrait"/>
                         </Col>
                         <Col className='about-text' md={6}>

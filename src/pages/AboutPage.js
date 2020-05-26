@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 import '../App.css';
 import Logo from '../images/photos/about_pic.JPG';
+import { Link } from 'react-router-dom';
 
 function AboutPage(props) {
     return (
@@ -33,7 +34,7 @@ function AboutPage(props) {
                                     Going into college, I wasn't particularly passionate about any subject; however, it was there that I discovered coding! Although changing majors was a challenge, it has been a very fulfilling journey. While most of my experience thus far has been more backend work, I hope to broaden my skillset and work on frontend development and design as well.
                                 </p> 
                                 <p>
-                                    In my free time, I love to get together with friends, check out new restaurants, and get a good workout in! Recently, I've gotten into baking and back into art and photography. You can check out some of my work in the <a className='customLink' href='/portfolio'>Portfolio</a> page! 
+                                    In my free time, I love to get together with friends, check out new restaurants, and get a good workout in! Recently, I've gotten into baking and back into art and photography. You can check out some of my work in the <Link className='customLink' to='/portfolio'>Portfolio</Link> page! 
                                 </p>
                             </div>
                         </Col>

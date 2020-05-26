@@ -16,6 +16,7 @@ import deer from '../images/art/deer.jpg';
 import elephant from '../images/art/elephant.jpg';
 
 import seal from '../images/seal.png';
+import { Link } from 'react-router-dom';
 
 function HomePage(props) {
     return (
@@ -43,7 +44,7 @@ function HomePage(props) {
                                     {<h3 className="home-blue font-weight-bolder"> {props.about} </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"> <a href='/about' className='customLink'>See more</a></p>}
+                                    {<p className="zoom see-more-p font-weight-bolder"> <Link to='/about' className='customLink'>See more</Link></p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>
@@ -73,7 +74,7 @@ function HomePage(props) {
                                     {<h3 className="home-blue font-weight-bolder"> {props.photos} </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"> <a href='/portfolio#pic-title' className='customLink'>See more</a></p>}
+                                    {<p className="zoom see-more-p font-weight-bolder"> <Link to='/portfolio#pic-title' className='customLink'>See more</Link></p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>
@@ -107,7 +108,7 @@ function HomePage(props) {
                                     {<h3 className="home-blue font-weight-bolder"> {props.art} </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"><a href='/portfolio#art-title' className='customLink'>See more</a> </p>}
+                                    {<p className="zoom see-more-p font-weight-bolder"><Link to='/portfolio#art-title' className='customLink'>See more</Link> </p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>

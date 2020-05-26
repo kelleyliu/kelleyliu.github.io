@@ -58,7 +58,6 @@ function PortfolioPage(props) {
 
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={false}>
-                <ScrollTop></ScrollTop>
                 <div className='content-margin'>
                     <Row className='text-left'>
                         <Col>

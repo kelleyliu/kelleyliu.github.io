@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "http://kelleyliu.github.io/static/css/main.dd1a15d9.chunk.css",
-    "main.js": "http://kelleyliu.github.io/static/js/main.75ec7b7a.chunk.js",
-    "main.js.map": "http://kelleyliu.github.io/static/js/main.75ec7b7a.chunk.js.map",
-    "runtime-main.js": "http://kelleyliu.github.io/static/js/runtime-main.3361bfad.js",
-    "runtime-main.js.map": "http://kelleyliu.github.io/static/js/runtime-main.3361bfad.js.map",
-    "static/css/2.50e798ae.chunk.css": "http://kelleyliu.github.io/static/css/2.50e798ae.chunk.css",
-    "static/js/2.966af957.chunk.js": "http://kelleyliu.github.io/static/js/2.966af957.chunk.js",
-    "static/js/2.966af957.chunk.js.map": "http://kelleyliu.github.io/static/js/2.966af957.chunk.js.map",
+    "main.css": "http://kelleyliu.github.io/static/css/main.067e35d0.chunk.css",
+    "main.js": "http://kelleyliu.github.io/static/js/main.bfaf351f.chunk.js",
+    "main.js.map": "http://kelleyliu.github.io/static/js/main.bfaf351f.chunk.js.map",
+    "runtime-main.js": "http://kelleyliu.github.io/static/js/runtime-main.ca255227.js",
+    "runtime-main.js.map": "http://kelleyliu.github.io/static/js/runtime-main.ca255227.js.map",
+    "static/css/2.829c9cb5.chunk.css": "http://kelleyliu.github.io/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.9e2196d3.chunk.js": "http://kelleyliu.github.io/static/js/2.9e2196d3.chunk.js",
+    "static/js/2.9e2196d3.chunk.js.map": "http://kelleyliu.github.io/static/js/2.9e2196d3.chunk.js.map",
     "index.html": "http://kelleyliu.github.io/index.html",
-    "precache-manifest.c500892e7314fcd5f2c093aa559aa138.js": "http://kelleyliu.github.io/precache-manifest.c500892e7314fcd5f2c093aa559aa138.js",
+    "precache-manifest.8d6e53139ce9102e8fbed6f6e9040f6b.js": "http://kelleyliu.github.io/precache-manifest.8d6e53139ce9102e8fbed6f6e9040f6b.js",
     "service-worker.js": "http://kelleyliu.github.io/service-worker.js",
-    "static/css/2.50e798ae.chunk.css.map": "http://kelleyliu.github.io/static/css/2.50e798ae.chunk.css.map",
-    "static/css/main.dd1a15d9.chunk.css.map": "http://kelleyliu.github.io/static/css/main.dd1a15d9.chunk.css.map",
-    "static/js/2.966af957.chunk.js.LICENSE.txt": "http://kelleyliu.github.io/static/js/2.966af957.chunk.js.LICENSE.txt",
+    "static/css/2.829c9cb5.chunk.css.map": "http://kelleyliu.github.io/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.067e35d0.chunk.css.map": "http://kelleyliu.github.io/static/css/main.067e35d0.chunk.css.map",
+    "static/js/2.9e2196d3.chunk.js.LICENSE.txt": "http://kelleyliu.github.io/static/js/2.9e2196d3.chunk.js.LICENSE.txt",
     "static/media/about_pic.JPG": "http://kelleyliu.github.io/static/media/about_pic.ff8aafbf.JPG",
     "static/media/deer.jpg": "http://kelleyliu.github.io/static/media/deer.2b4e243b.jpg",
     "static/media/elephant.jpg": "http://kelleyliu.github.io/static/media/elephant.84f55ec3.jpg",
@@ -54,10 +54,10 @@
     "static/media/yose9.jpg": "http://kelleyliu.github.io/static/media/yose9.a3572cc1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3361bfad.js",
-    "static/css/2.50e798ae.chunk.css",
-    "static/js/2.966af957.chunk.js",
-    "static/css/main.dd1a15d9.chunk.css",
-    "static/js/main.75ec7b7a.chunk.js"
+    "static/js/runtime-main.ca255227.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.9e2196d3.chunk.js",
+    "static/css/main.067e35d0.chunk.css",
+    "static/js/main.bfaf351f.chunk.js"
   ]
 }

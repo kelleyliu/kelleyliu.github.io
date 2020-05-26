@@ -17,7 +17,7 @@ function AboutPage(props) {
                 <Container className='about-container' fluid={false}>
                     <Row className="text-left">
                         <Col className='about-margin'>
-                            {<h1 className="home-blue display-4 font-weight-bolder">About me</h1>}
+                            {<h1 id='about-title' className="home-blue display-4 font-weight-bolder">About me</h1>}
                         </Col>
                     </Row>
                     <Row className="py-3">

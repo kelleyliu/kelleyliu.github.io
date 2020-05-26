@@ -49,8 +49,8 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
-                                        <Route path='/about' render={() => <AboutPage/>}/>
-                                            <Link to='/about' className='customLink'>See more</Link>
+                                        <Route path='/about#about-title' render={() => <AboutPage/>}/>
+                                            <Link to='/about#about-title' className='customLink'>See more</Link>
                                     </p>}
                                 </Col>
                             </Row>

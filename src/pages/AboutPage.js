@@ -20,13 +20,15 @@ function AboutPage(props) {
                         </Col>
                     </Row>
                     <Row className="py-3">
-                        <Col className='img-align fadeIn'>
+                        <Col className='img-align fadeIn' sm={12} md={6}>
                             <img className='about-pic' src={Logo} alt="portrait"/>
                         </Col>
                         <Col style={{
                             justifyContent:'center',
                             alignItems:'center',
-                            display:'flex'}}>
+                            display:'flex'}}
+                            sm={12}
+                            md={6}>
                             <div className='home-blue fadeIn'>
                                 <h5 className="lead accent-color"> 
                                     Hi, my name is Kelley Liu...

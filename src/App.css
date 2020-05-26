@@ -10,6 +10,13 @@
   max-width: 75%;
 }
 
+.about-text {
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  margin-top: 10px;
+}
+
 .about-margin {
   margin-left: 68px;
 }

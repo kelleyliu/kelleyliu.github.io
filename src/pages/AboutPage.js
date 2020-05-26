@@ -11,24 +11,17 @@ function AboutPage(props) {
     return (
         <div>
             <Jumbotron className="bg-transparent jumbotron-fluid p-0">
-                <Container className='avout-container' fluid={false}>
+                <Container className='about-container' fluid={false}>
                     <Row className="text-left">
                         <Col className='about-margin'>
                             {<h1 className="home-blue display-4 font-weight-bolder"> { props.title } </h1>}
-                        </Col>
-                        <Col>
                         </Col>
                     </Row>
                     <Row className="py-3">
                         <Col className='img-align fadeIn' sm={12} md={6}>
                             <img className='about-pic' src={Logo} alt="portrait"/>
                         </Col>
-                        <Col style={{
-                            justifyContent:'center',
-                            alignItems:'center',
-                            display:'flex'}}
-                            sm={12}
-                            md={6}>
+                        <Col className='about-text' sm={12} md={6}>
                             <div className='home-blue fadeIn'>
                                 <h5 className="lead accent-color"> 
                                     Hi, my name is Kelley Liu...
@@ -37,10 +30,7 @@ function AboutPage(props) {
                                     My name is not pronounced phonetically and I go by "Callie." If you want to know why . . . let's chat!
                                 </p> */}
                                 <p>
-                                    I'm a Bay Area native and have lived here all my life.
-                                </p>
-                                <p>
-                                    I recently graduated from UC Berkeley studying Data Science with a minor in CS and will be starting a full-time job at Apple after summer! 
+                                    I'm a Bay Area native and I recently graduated from UC Berkeley studying Data Science with a minor in CS and will be starting a full-time job at Apple after summer! 
                                 </p>
                                 <p>
                                     Going into college, I wasn't particularly passionate about any subject; however, it was there that I discovered coding! Although changing majors was a challenge, it has been a very fulfilling journey. While most of my experience thus far has been more backend work, I hope to broaden my skillset and work on frontend development and design as well.

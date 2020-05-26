@@ -61,7 +61,7 @@ function PortfolioPage(props) {
                 <div className='content-margin'>
                     <Row className='text-left'>
                         <Col>
-                            {<h3 id='pic-title' className="home-blue font-weight-bolder"> { props.photos } </h3>}
+                            {<h3 id='pic-title' className="home-blue font-weight-bolder"> Photos </h3>}
                         </Col>
                     </Row>
                 </div>
@@ -180,7 +180,7 @@ function PortfolioPage(props) {
                 <div className='content-margin'>
                     <Row className='text-left'>
                         <Col>
-                            {<h3 id='art-title' className="home-blue font-weight-bolder"> { props.art } </h3>}
+                            {<h3 id='art-title' className="home-blue font-weight-bolder"> Art </h3>}
                         </Col>
                     </Row>
                 </div>

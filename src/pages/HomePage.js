@@ -16,7 +16,10 @@ import deer from '../images/art/deer.jpg';
 import elephant from '../images/art/elephant.jpg';
 
 import seal from '../images/seal.png';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
+import PortfolioPage from './PortfolioPage';
+import AboutPage from './AboutPage';
+
 
 function HomePage(props) {
     return (
@@ -26,9 +29,9 @@ function HomePage(props) {
                     <Container fluid={false}>
                         <Row className="text-left py-5">
                             <Col xs={12}>
-                                {<h1 className="home-blue zoom display-1 font-weight-bolder"> {props.title} </h1>}
-                                {<h2 className="home-blue display-4 font-weight-light"> {props.subTitle} </h2>}
-                                {<p className="home-blue lead font-weight-light"> {props.text} </p>}
+                                {<h1 className="home-blue zoom display-1 font-weight-bolder"> Hello! </h1>}
+                                {<h2 className="home-blue display-4 font-weight-light"> I'm Kelley.</h2>}
+                                {<p className="home-blue lead font-weight-light"> I'm a software engineer passionate about creating meaningful and useful tools. </p>}
                             </Col>
                         </Row>
                     </Container>
@@ -41,10 +44,14 @@ function HomePage(props) {
                         <Container fluid={false}>
                             <Row className="text-left">
                                 <Col>
-                                    {<h3 className="home-blue font-weight-bolder"> {props.about} </h3>}
+                                    {<h3 className="home-blue font-weight-bolder"> About me </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"> <Link to='/about' className='customLink'>See more</Link></p>}
+                                    {<p className="zoom see-more-p font-weight-bolder">
+                                        <Route path='/about' render={() => <AboutPage/>}/>
+                                            <Link to='/about' className='customLink'>See more</Link>
+                                        {/* </Route>  */}
+                                    </p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>
@@ -71,10 +78,13 @@ function HomePage(props) {
                         <Container fluid={false}>
                             <Row className="text-left">
                                 <Col>
-                                    {<h3 className="home-blue font-weight-bolder"> {props.photos} </h3>}
+                                    {<h3 className="home-blue font-weight-bolder"> Photos </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"> <Link to='/portfolio#pic-title' className='customLink'>See more</Link></p>}
+                                    {<p className="zoom see-more-p font-weight-bolder"> 
+                                        <Route path='/portfolio#pic-title'render={() => <PortfolioPage/>}/>
+                                            <Link to='/portfolio#pic-title' className='customLink'>See more</Link>
+                                    </p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>
@@ -105,10 +115,14 @@ function HomePage(props) {
                         <Container fluid={false}>
                             <Row className="text-left">
                                 <Col>
-                                    {<h3 className="home-blue font-weight-bolder"> {props.art} </h3>}
+                                    {<h3 className="home-blue font-weight-bolder"> Art </h3>}
                                 </Col>
                                 <Col className='see-more'>
-                                    {<p className="zoom see-more-p font-weight-bolder"><Link to='/portfolio#art-title' className='customLink'>See more</Link> </p>}
+                                    {<p className="zoom see-more-p font-weight-bolder">
+                                    <Route path='/portfolio#art-title'render={() => <PortfolioPage/>}/>
+                                            <Link to='/portfolio#art-title' className='customLink'>See more</Link>
+                                        {/* </Route> */}
+                                    </p>}
                                 </Col>
                             </Row>
                             <div className='img-margin'>

@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 
 import '../App.css';
 
-import about_pic from '../images/photos/about_pic.JPG';
 import kate1 from '../images/photos/kate1.jpg';
 import kate2 from '../images/photos/kate2.jpg';
 import george3 from '../images/photos/george3.jpg';
@@ -58,7 +57,7 @@ function HomePage(props) {
                                         <img className='img-fluid img' src={seal}/>
                                     </Col>
                                 </Row>
-                            </div>
+                            </div>xw
                         </Container>
                     </Jumbotron>
                 </div>

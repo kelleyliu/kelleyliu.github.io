@@ -21,14 +21,11 @@ function AboutPage(props) {
                         <Col className='img-align fadeIn' sm={12} md={6}>
                             <img className='about-pic' src={Logo} alt="portrait"/>
                         </Col>
-                        <Col className='about-text' sm={12} md={6}>
+                        <Col className='about-text' md={6}>
                             <div className='home-blue fadeIn about-text-margin'>
                                 <h5 className="lead accent-color"> 
                                     Hi, my name is Kelley Liu...
                                 </h5>
-                                {/* <p>
-                                    My name is not pronounced phonetically and I go by "Callie." If you want to know why . . . let's chat!
-                                </p> */}
                                 <p>
                                     I'm a Bay Area native and I recently graduated from UC Berkeley studying Data Science with a minor in CS and will be starting a full-time job at Apple after summer! 
                                 </p>

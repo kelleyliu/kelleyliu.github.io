@@ -39,7 +39,7 @@ function HomePage(props) {
                     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
                         <Container fluid={false}>
                             <Row className="text-left">
-                                <Col xs={12} sm={12}>
+                                <Col>
                                     {<h3 className="home-blue font-weight-bolder"> {props.about} </h3>}
                                 </Col>
                                 <Col className='see-more'>

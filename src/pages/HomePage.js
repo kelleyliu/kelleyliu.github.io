@@ -16,7 +16,7 @@ import deer from '../images/art/deer.jpg';
 import elephant from '../images/art/elephant.jpg';
 
 import seal from '../images/seal.png';
-import { Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import PortfolioPage from './PortfolioPage';
 import AboutPage from './AboutPage';
@@ -49,7 +49,7 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
-                                        <Route path='/about#about-title' render={() => <AboutPage/>}/>
+                                        <HashRouter path='/about#about-title' render={() => <AboutPage/>}/>
                                             <Link to='/about#about-title' className='customLink'>See more</Link>
                                     </p>}
                                 </Col>
@@ -82,7 +82,7 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder"> 
-                                        <Route path='/portfolio#pic-title' render={() => <PortfolioPage/>}/>
+                                        <HashRouter path='/portfolio#pic-title' render={() => <PortfolioPage/>}/>
                                             <Link to='/portfolio#pic-title' className='customLink'>See more</Link>
                                     </p>}
                                 </Col>
@@ -119,7 +119,7 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
-                                    <Route path='/portfolio#art-title' render={() => <PortfolioPage/>}/>
+                                    <HashRouter path='/portfolio#art-title' render={() => <PortfolioPage/>}/>
                                             <Link to='/portfolio#art-title' className='customLink'>See more</Link>
                                     </p>}
                                 </Col>

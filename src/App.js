@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { HashRouter } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import './App.css';
@@ -17,17 +17,15 @@ class App extends React.Component {
   }
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
-        <Router>
+      <HashRouter>
           <Container className="p-0" fluid={true}>
             <NavBar />  
-              <Route path="/website" exact render={() => <HomePage />}/>
+              <Route path="/" exact render={() => <HomePage />}/>
               <Route path="/about" render={() => <AboutPage/>}/>
-              <Route path="/portfolio" render={() => <PortfolioPage/>}/>          
+              <Route path='/portfolio' render={() => <PortfolioPage/>}/>          
             <Footer/>
           </Container>
           <ScrollTop />
-        </Router>
       </HashRouter>
       
     );

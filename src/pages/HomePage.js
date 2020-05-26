@@ -16,7 +16,8 @@ import deer from '../images/art/deer.jpg';
 import elephant from '../images/art/elephant.jpg';
 
 import seal from '../images/seal.png';
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import PortfolioPage from './PortfolioPage';
 import AboutPage from './AboutPage';
 
@@ -50,7 +51,6 @@ function HomePage(props) {
                                     {<p className="zoom see-more-p font-weight-bolder">
                                         <Route path='/about' render={() => <AboutPage/>}/>
                                             <Link to='/about' className='customLink'>See more</Link>
-                                        {/* </Route>  */}
                                     </p>}
                                 </Col>
                             </Row>
@@ -82,7 +82,7 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder"> 
-                                        <Route path='/portfolio#pic-title'render={() => <PortfolioPage/>}/>
+                                        <Route path='/portfolio#pic-title' render={() => <PortfolioPage/>}/>
                                             <Link to='/portfolio#pic-title' className='customLink'>See more</Link>
                                     </p>}
                                 </Col>
@@ -119,9 +119,8 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
-                                    <Route path='/portfolio#art-title'render={() => <PortfolioPage/>}/>
+                                    <Route path='/portfolio#art-title' render={() => <PortfolioPage/>}/>
                                             <Link to='/portfolio#art-title' className='customLink'>See more</Link>
-                                        {/* </Route> */}
                                     </p>}
                                 </Col>
                             </Row>

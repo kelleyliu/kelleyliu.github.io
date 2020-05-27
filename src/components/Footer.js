@@ -15,12 +15,13 @@ function Footer() {
                     <Row className='foot-bottom'>
                         <Col className="p-0 text-center">
                             <div className='text-center'>
-                                <h4 className='foot-name font-weight-bolder head-foot-color'>KELLEY LIU</h4>
+                                <h4 className='foot-name font-weight-bolder accent-color'>KELLEY LIU</h4>
                                 <p className='foot-grey foot-size'>Developer</p>
                                 <p className='foot-grey foot-size'>+</p>
                                 <p className='foot-grey foot-size'>Food Enthusiast</p>
-                                <p className='connect lead foot-grey'>Let's Connect!</p>
-                                <p className='home-blue email foot-size foot-grey'> <a className='customLink' href="mailto:kelleyrliu@gmail.com">kelleyrliu@gmail.com</a></p>
+                                <br></br>
+                                <p className='connect foot-size foot-grey'>Let's Connect!</p>
+                                <p className='home-blue email foot-size foot-grey'> <a className='otherLink' href="mailto:kelleyrliu@gmail.com">kelleyrliu@gmail.com</a></p>
                                 <div>
                                     <a href='https://github.com/kelleyliu' target='_blank'><img src={gh} className='icon'/></a>
                                     <a href='https://www.linkedin.com/in/kelley-liu/' target='_blank'><img src={ln} className='icon'/></a>

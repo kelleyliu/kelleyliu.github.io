@@ -58,10 +58,16 @@ function PortfolioPage(props) {
 
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={false}>
+                <Row className="text-left">
+                    <Col>
+                        {<h1 className="home-blue display-4 font-weight-bolder">Portfolio</h1>}
+                    </Col>
+                </Row>
                 <div className='content-margin'>
+                    
                     <Row className='text-left'>
                         <Col>
-                            {<h3 id='pic-title' className="home-blue font-weight-bolder"> Photos </h3>}
+                            {<h3 id='pic-title' className="accent-color font-weight-bolder"> Photos </h3>}
                         </Col>
                     </Row>
                 </div>
@@ -180,7 +186,7 @@ function PortfolioPage(props) {
                 <div className='content-margin'>
                     <Row className='text-left'>
                         <Col>
-                            {<h3 id='art-title' className="home-blue font-weight-bolder"> Art </h3>}
+                            {<h3 id='art-title' className="accent-color font-weight-bolder"> Art </h3>}
                         </Col>
                     </Row>
                 </div>

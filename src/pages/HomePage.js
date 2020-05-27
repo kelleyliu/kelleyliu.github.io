@@ -30,7 +30,7 @@ function HomePage(props) {
                     <Container fluid={false}>
                         <Row className="text-left py-5">
                             <Col xs={12}>
-                                {<h1 className="home-blue zoom display-1 font-weight-bolder"> Hello! </h1>}
+                                {<h1 className="home-blue zoom display-1 font-weight-bolder"> Hello there! </h1>}
                                 {<h2 className="home-blue display-4 font-weight-light"> I'm Kelley.</h2>}
                                 {<p className="home-blue lead font-weight-light"> I'm a software engineer passionate about creating meaningful and useful tools. </p>}
                             </Col>
@@ -49,8 +49,8 @@ function HomePage(props) {
                                 </Col>
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
-                                        <HashRouter path='/about#about-title' render={() => <AboutPage/>}/>
-                                            <Link to='/about#about-title' className='customLink'>See more</Link>
+                                        <HashRouter path='/about#about-top' render={() => <AboutPage/>}/>
+                                            <Link to='/about#about-top' className='otherLink'>See more</Link>
                                     </p>}
                                 </Col>
                             </Row>
@@ -83,7 +83,7 @@ function HomePage(props) {
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder"> 
                                         <HashRouter path='/portfolio#pic-title' render={() => <PortfolioPage/>}/>
-                                            <Link to='/portfolio#pic-title' className='customLink'>See more</Link>
+                                            <Link to='/portfolio#pic-title' className='otherLink'>See more</Link>
                                     </p>}
                                 </Col>
                             </Row>
@@ -120,7 +120,7 @@ function HomePage(props) {
                                 <Col className='see-more'>
                                     {<p className="zoom see-more-p font-weight-bolder">
                                     <HashRouter path='/portfolio#art-title' render={() => <PortfolioPage/>}/>
-                                            <Link to='/portfolio#art-title' className='customLink'>See more</Link>
+                                            <Link to='/portfolio#art-title' className='otherLink'>See more</Link>
                                     </p>}
                                 </Col>
                             </Row>

@@ -3,6 +3,7 @@
   --hover-color: rgb(136, 151, 220);
   --main-color:  rgb(50, 65, 114);
   --grey-color: rgb(170, 159, 152);
+  --box-color:  rgb(220, 161, 136, .2);
 }
 
 .about-pic {
@@ -11,24 +12,27 @@
 }
 
 .about-text {
-  justify-content: center;
+  text-align: left;
   align-items:center;
   display:flex;
   margin-top: 10px;
 }
 
-.about-text-margin {
-  width: 75% !important;
-  margin-left: auto;
-  margin-right: auto;
+.otherLink {
+  color: var(--accent-color);
 }
+
+.otherLink:hover{
+  color: var(--hover-color);
+  text-decoration: none !important;
+} 
 
 .about-margin {
   margin-left: 68px;
 }
 
 .about-container {
-  width: 1000px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,17 +40,18 @@
 .body-home {
   height: 90vh;
   display: flex;
-  justify-content: left;
-  width: 40%;
+  justify-content: center;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  text-align: left;
 }
 
 .body-rest {
   display: flex;
   justify-content: left;
-  width: 40%;
+  width: 47%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,13 +61,46 @@
   margin-bottom: 0;
 }
 
-.customLink {
+.navLink {
   color: var(--accent-color);
+  font-weight: 450 !important;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 10px;
+  /*lead*/
+  font-size: 1.25rem;
+  font-weight: 300;
 }
-
+/* 
 .customLink:hover{
   color: var(--hover-color);
   text-decoration: none !important;
+} */
+
+/* .customLink:hover .nav-text {
+  visibility: visible;
+  opacity: 1;
+} */
+
+/* .nav-text {
+  visibility: visible;
+  opacity: 1;
+  color: var(--hover-color);
+} */
+
+.nav-click-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-click-container:hover {
+  background-color: var(--box-color);
+  text-decoration: none !important;
+  border-radius: 7px;
 }
 
 .email {
@@ -94,7 +132,7 @@
   margin-bottom: 90px;
 }
 
-.head-foot-color {
+.accent-color {
   color: var(--accent-color);
 }
 
@@ -178,6 +216,8 @@
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
+
+
 
 .scrollTop {
   color: var(--accent-color);
